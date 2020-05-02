@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb8814133da048ca91ec698cfb9d5e28 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bb8814133da048ca91ec698cfb9d5e28" ></div>
+        
+</body>
+<script>    
+    
+            var map_bb8814133da048ca91ec698cfb9d5e28 = L.map(
+                "map_bb8814133da048ca91ec698cfb9d5e28",
+                {
+                    center: [33.8848675, -118.03739150000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2fc12f97f08c4869800cef9539f28561 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+            var circle_marker_7f7a4c9bd245413fbad155502c3613e6 = L.circleMarker(
+                [34.069499433567856, -118.27730147597948],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_bde081feae7d44fc8c189115867cdcbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca22e17f483a465ea7131f87db05cf87 = $(`<div id="html_ca22e17f483a465ea7131f87db05cf87" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.6</div>`)[0];
+            popup_bde081feae7d44fc8c189115867cdcbf.setContent(html_ca22e17f483a465ea7131f87db05cf87);
+        
+
+        circle_marker_7f7a4c9bd245413fbad155502c3613e6.bindPopup(popup_bde081feae7d44fc8c189115867cdcbf)
+        ;
+
+        
+    
+    
+            var circle_marker_17ae5aaafdb24edf84f6ae0d662285fd = L.circleMarker(
+                [34.026572464834736, -118.2762452078053],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_bc395f9d7d6e42c3b50b0666b052714d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9af61c2eeeb24199af4ad4b45fecfab7 = $(`<div id="html_9af61c2eeeb24199af4ad4b45fecfab7" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.9</div>`)[0];
+            popup_bc395f9d7d6e42c3b50b0666b052714d.setContent(html_9af61c2eeeb24199af4ad4b45fecfab7);
+        
+
+        circle_marker_17ae5aaafdb24edf84f6ae0d662285fd.bindPopup(popup_bc395f9d7d6e42c3b50b0666b052714d)
+        ;
+
+        
+    
+    
+            var circle_marker_e8e07d5c37304a6891fec3a2e98111ab = L.circleMarker(
+                [34.07988597347856, -118.25985812917642],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_b4c4428ceb114a5aa0884647063e544d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d294b896da1e40beaad55e9da026c43e = $(`<div id="html_d294b896da1e40beaad55e9da026c43e" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.4</div>`)[0];
+            popup_b4c4428ceb114a5aa0884647063e544d.setContent(html_d294b896da1e40beaad55e9da026c43e);
+        
+
+        circle_marker_e8e07d5c37304a6891fec3a2e98111ab.bindPopup(popup_b4c4428ceb114a5aa0884647063e544d)
+        ;
+
+        
+    
+    
+            var circle_marker_fabd2d5135d84a569fefae43d24f284c = L.circleMarker(
+                [34.073864, -118.212878],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_2a947dab995940b2a3d0b439a631337a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89775c7659794c3fa98173dd86676910 = $(`<div id="html_89775c7659794c3fa98173dd86676910" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_2a947dab995940b2a3d0b439a631337a.setContent(html_89775c7659794c3fa98173dd86676910);
+        
+
+        circle_marker_fabd2d5135d84a569fefae43d24f284c.bindPopup(popup_2a947dab995940b2a3d0b439a631337a)
+        ;
+
+        
+    
+    
+            var circle_marker_ef77c44e68304d0d88f96cd2dc5323c8 = L.circleMarker(
+                [34.05791179330657, -118.29254519744455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_a6b609a3643941c192db6fd74caf88c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17438982c9744bb94de1c0292a43fa6 = $(`<div id="html_d17438982c9744bb94de1c0292a43fa6" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_a6b609a3643941c192db6fd74caf88c6.setContent(html_d17438982c9744bb94de1c0292a43fa6);
+        
+
+        circle_marker_ef77c44e68304d0d88f96cd2dc5323c8.bindPopup(popup_a6b609a3643941c192db6fd74caf88c6)
+        ;
+
+        
+    
+    
+            var circle_marker_cef2f95b1a5d47e9a74fcf9cd205fff7 = L.circleMarker(
+                [34.006013724177805, -118.256228370981],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_d72accb4aa264bbc99192805b26df476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eaf994c7c494c5bbbabbd765f3bc4d1 = $(`<div id="html_4eaf994c7c494c5bbbabbd765f3bc4d1" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_d72accb4aa264bbc99192805b26df476.setContent(html_4eaf994c7c494c5bbbabbd765f3bc4d1);
+        
+
+        circle_marker_cef2f95b1a5d47e9a74fcf9cd205fff7.bindPopup(popup_d72accb4aa264bbc99192805b26df476)
+        ;
+
+        
+    
+    
+            var circle_marker_efde65a807a940198d7bd6e7c7a4f9a9 = L.circleMarker(
+                [34.0223659444606, -118.29186438367293],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_3265e70bd34f42818d2184aa2f13b263 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a712bfb79f7c4d8db767c3406b006b27 = $(`<div id="html_a712bfb79f7c4d8db767c3406b006b27" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.4</div>`)[0];
+            popup_3265e70bd34f42818d2184aa2f13b263.setContent(html_a712bfb79f7c4d8db767c3406b006b27);
+        
+
+        circle_marker_efde65a807a940198d7bd6e7c7a4f9a9.bindPopup(popup_3265e70bd34f42818d2184aa2f13b263)
+        ;
+
+        
+    
+    
+            var circle_marker_edf4a949d24b4692a4294107d1c7bb7a = L.circleMarker(
+                [34.015939530285685, -118.2859432697296],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_1754a3d426464da29b909bff20e6bebb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fc8c0f082374bfba8a2ecdac140fdad = $(`<div id="html_7fc8c0f082374bfba8a2ecdac140fdad" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_1754a3d426464da29b909bff20e6bebb.setContent(html_7fc8c0f082374bfba8a2ecdac140fdad);
+        
+
+        circle_marker_edf4a949d24b4692a4294107d1c7bb7a.bindPopup(popup_1754a3d426464da29b909bff20e6bebb)
+        ;
+
+        
+    
+    
+            var circle_marker_fafd038e1b864bbf98d9e875a1ad4617 = L.circleMarker(
+                [34.088396285769306, -118.30892530774672],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_ee289010983c4e60965de834e3a61de1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f70d1e88f2f04c438661725b1cef7879 = $(`<div id="html_f70d1e88f2f04c438661725b1cef7879" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.9</div>`)[0];
+            popup_ee289010983c4e60965de834e3a61de1.setContent(html_f70d1e88f2f04c438661725b1cef7879);
+        
+
+        circle_marker_fafd038e1b864bbf98d9e875a1ad4617.bindPopup(popup_ee289010983c4e60965de834e3a61de1)
+        ;
+
+        
+    
+    
+            var circle_marker_1c576e47201b478a924f45666225e918 = L.circleMarker(
+                [34.01112501647923, -118.30045212548978],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_e9da027b7d8e4e53842c0746cb360694 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f357dce28de48448f94468c1bd9f7db = $(`<div id="html_7f357dce28de48448f94468c1bd9f7db" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_e9da027b7d8e4e53842c0746cb360694.setContent(html_7f357dce28de48448f94468c1bd9f7db);
+        
+
+        circle_marker_1c576e47201b478a924f45666225e918.bindPopup(popup_e9da027b7d8e4e53842c0746cb360694)
+        ;
+
+        
+    
+    
+            var circle_marker_4e629a2e1c2d4df8a50e18df692a4d5f = L.circleMarker(
+                [33.98951807358016, -118.22637684828315],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_2185fc594abe47bdb28a6a967106647d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7860391aecf4b4c89053b4fce478da5 = $(`<div id="html_b7860391aecf4b4c89053b4fce478da5" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_2185fc594abe47bdb28a6a967106647d.setContent(html_b7860391aecf4b4c89053b4fce478da5);
+        
+
+        circle_marker_4e629a2e1c2d4df8a50e18df692a4d5f.bindPopup(popup_2185fc594abe47bdb28a6a967106647d)
+        ;
+
+        
+    
+    
+            var circle_marker_c6163c40f221446bbbc833b6344b8594 = L.circleMarker(
+                [34.092357, -118.32628100000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_9acac83e18ea4e4089ba34763b27021a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42a579c0951345d18572a224dda94b2d = $(`<div id="html_42a579c0951345d18572a224dda94b2d" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.0</div>`)[0];
+            popup_9acac83e18ea4e4089ba34763b27021a.setContent(html_42a579c0951345d18572a224dda94b2d);
+        
+
+        circle_marker_c6163c40f221446bbbc833b6344b8594.bindPopup(popup_9acac83e18ea4e4089ba34763b27021a)
+        ;
+
+        
+    
+    
+            var circle_marker_c19b1cd0aed34c85ad8211539298a2f9 = L.circleMarker(
+                [34.11166837849278, -118.1879201753042],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_a04a9d5428f94daeaab6a0b4a9bfdde5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25dd976ca9e84b9cb3409e5a5725ef5b = $(`<div id="html_25dd976ca9e84b9cb3409e5a5725ef5b" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_a04a9d5428f94daeaab6a0b4a9bfdde5.setContent(html_25dd976ca9e84b9cb3409e5a5725ef5b);
+        
+
+        circle_marker_c19b1cd0aed34c85ad8211539298a2f9.bindPopup(popup_a04a9d5428f94daeaab6a0b4a9bfdde5)
+        ;
+
+        
+    
+    
+            var circle_marker_7ffe93cec03e4d44a8de06784db144a9 = L.circleMarker(
+                [34.08741788445254, -118.15170106567275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_1789097314a641288fdecc444c5f4df6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5db0ee09ec7463c8938cfd058ddf75c = $(`<div id="html_f5db0ee09ec7463c8938cfd058ddf75c" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.1</div>`)[0];
+            popup_1789097314a641288fdecc444c5f4df6.setContent(html_f5db0ee09ec7463c8938cfd058ddf75c);
+        
+
+        circle_marker_7ffe93cec03e4d44a8de06784db144a9.bindPopup(popup_1789097314a641288fdecc444c5f4df6)
+        ;
+
+        
+    
+    
+            var circle_marker_87abb560b7424bca82efbcdbb2a3a778 = L.circleMarker(
+                [34.030868711172296, -118.33485709485012],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_501987b8b6854296b3e3dd7ef186eb90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05146d637c324df2bd234738fb3feef2 = $(`<div id="html_05146d637c324df2bd234738fb3feef2" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_501987b8b6854296b3e3dd7ef186eb90.setContent(html_05146d637c324df2bd234738fb3feef2);
+        
+
+        circle_marker_87abb560b7424bca82efbcdbb2a3a778.bindPopup(popup_501987b8b6854296b3e3dd7ef186eb90)
+        ;
+
+        
+    
+    
+            var circle_marker_775eff8511aa4750ab9df124a0b3f883 = L.circleMarker(
+                [34.03802282171314, -118.14710743542776],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_fd0f345e571d442cb56baf6645416ff3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d0efe4bf83f4754afc879d046dd1eb9 = $(`<div id="html_0d0efe4bf83f4754afc879d046dd1eb9" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.2</div>`)[0];
+            popup_fd0f345e571d442cb56baf6645416ff3.setContent(html_0d0efe4bf83f4754afc879d046dd1eb9);
+        
+
+        circle_marker_775eff8511aa4750ab9df124a0b3f883.bindPopup(popup_fd0f345e571d442cb56baf6645416ff3)
+        ;
+
+        
+    
+    
+            var circle_marker_435795fe4b584e0c8930f3fb135668d9 = L.circleMarker(
+                [34.02265686447326, -118.37206537794874],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_47dc388d61374cdd90c2d045fc60641c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_496498a86c174c19bae326db17bfab61 = $(`<div id="html_496498a86c174c19bae326db17bfab61" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_47dc388d61374cdd90c2d045fc60641c.setContent(html_496498a86c174c19bae326db17bfab61);
+        
+
+        circle_marker_435795fe4b584e0c8930f3fb135668d9.bindPopup(popup_47dc388d61374cdd90c2d045fc60641c)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca6310f170242faba380db2d710e489 = L.circleMarker(
+                [34.07590744622613, -118.3745853914482],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_cac6d39b7ea1451890256110effb659d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75d115c907144bfe94457363a481e6ea = $(`<div id="html_75d115c907144bfe94457363a481e6ea" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_cac6d39b7ea1451890256110effb659d.setContent(html_75d115c907144bfe94457363a481e6ea);
+        
+
+        circle_marker_8ca6310f170242faba380db2d710e489.bindPopup(popup_cac6d39b7ea1451890256110effb659d)
+        ;
+
+        
+    
+    
+            var circle_marker_58fcbc4bb38245dcbdb51699410c9e12 = L.circleMarker(
+                [34.136302846104, -118.35238078606764],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_1dd2577842414dbca2158e662018630b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7aa93177a4c446eb8448555e5085088a = $(`<div id="html_7aa93177a4c446eb8448555e5085088a" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.2</div>`)[0];
+            popup_1dd2577842414dbca2158e662018630b.setContent(html_7aa93177a4c446eb8448555e5085088a);
+        
+
+        circle_marker_58fcbc4bb38245dcbdb51699410c9e12.bindPopup(popup_1dd2577842414dbca2158e662018630b)
+        ;
+
+        
+    
+    
+            var circle_marker_19b165eb7ffe4f7582d96bf78e2c1b43 = L.circleMarker(
+                [33.94611308233913, -118.15480884440154],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_3d23e5a8e2324e1ea1ce3a23651a6e5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_631194a9052e4d18982cd7118032ac99 = $(`<div id="html_631194a9052e4d18982cd7118032ac99" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_3d23e5a8e2324e1ea1ce3a23651a6e5f.setContent(html_631194a9052e4d18982cd7118032ac99);
+        
+
+        circle_marker_19b165eb7ffe4f7582d96bf78e2c1b43.bindPopup(popup_3d23e5a8e2324e1ea1ce3a23651a6e5f)
+        ;
+
+        
+    
+    
+            var circle_marker_1f9c302ee6a44c2f8369a3705d79a852 = L.circleMarker(
+                [33.931307246881424, -118.32562183346901],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_b436311b29a44cd99fc57174a2dc4fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f6f5d0c9eff4ff9a11a1f8744c386be = $(`<div id="html_3f6f5d0c9eff4ff9a11a1f8744c386be" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_b436311b29a44cd99fc57174a2dc4fec.setContent(html_3f6f5d0c9eff4ff9a11a1f8744c386be);
+        
+
+        circle_marker_1f9c302ee6a44c2f8369a3705d79a852.bindPopup(popup_b436311b29a44cd99fc57174a2dc4fec)
+        ;
+
+        
+    
+    
+            var circle_marker_1ef078053be94e02928e3d8691abe8be = L.circleMarker(
+                [34.146277003899534, -118.11011936257836],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_5bbcea5ec44c4b77bb9809aa99064397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6d008e9cd01443db15d47b4b9455d08 = $(`<div id="html_e6d008e9cd01443db15d47b4b9455d08" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_5bbcea5ec44c4b77bb9809aa99064397.setContent(html_e6d008e9cd01443db15d47b4b9455d08);
+        
+
+        circle_marker_1ef078053be94e02928e3d8691abe8be.bindPopup(popup_5bbcea5ec44c4b77bb9809aa99064397)
+        ;
+
+        
+    
+    
+            var circle_marker_2b535121aac64a30a902bb0bf6f1055e = L.circleMarker(
+                [34.18106845589377, -118.15061520403185],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_51f4110bacfa4fcb917695dad640d927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd6393a6c8ec4b7286f03c909b8a0edf = $(`<div id="html_dd6393a6c8ec4b7286f03c909b8a0edf" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_51f4110bacfa4fcb917695dad640d927.setContent(html_dd6393a6c8ec4b7286f03c909b8a0edf);
+        
+
+        circle_marker_2b535121aac64a30a902bb0bf6f1055e.bindPopup(popup_51f4110bacfa4fcb917695dad640d927)
+        ;
+
+        
+    
+    
+            var circle_marker_947076294e294cabb066e9decde8a48f = L.circleMarker(
+                [34.006248119075664, -118.42949733438887],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_973f5e62858b4833b5ed1817d5289478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b660b34ce68944468a3e20f2b8b8ae77 = $(`<div id="html_b660b34ce68944468a3e20f2b8b8ae77" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_973f5e62858b4833b5ed1817d5289478.setContent(html_b660b34ce68944468a3e20f2b8b8ae77);
+        
+
+        circle_marker_947076294e294cabb066e9decde8a48f.bindPopup(popup_973f5e62858b4833b5ed1817d5289478)
+        ;
+
+        
+    
+    
+            var circle_marker_806e8b578dd04348ae86c18425a477ef = L.circleMarker(
+                [34.164589726096146, -118.38744773412066],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_81eb8c3db6dc4fe88f85fedfad9409f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e48084a64c174db0be18bcd1ffd9e2a5 = $(`<div id="html_e48084a64c174db0be18bcd1ffd9e2a5" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_81eb8c3db6dc4fe88f85fedfad9409f9.setContent(html_e48084a64c174db0be18bcd1ffd9e2a5);
+        
+
+        circle_marker_806e8b578dd04348ae86c18425a477ef.bindPopup(popup_81eb8c3db6dc4fe88f85fedfad9409f9)
+        ;
+
+        
+    
+    
+            var circle_marker_6c149099190e40d6ac9d42f99acd2b9c = L.circleMarker(
+                [34.070290934198376, -118.44428230902122],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_96470199ea294259a099a3202e2cde92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_865a485f8b8b40c69d316acc32a59a13 = $(`<div id="html_865a485f8b8b40c69d316acc32a59a13" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.2</div>`)[0];
+            popup_96470199ea294259a099a3202e2cde92.setContent(html_865a485f8b8b40c69d316acc32a59a13);
+        
+
+        circle_marker_6c149099190e40d6ac9d42f99acd2b9c.bindPopup(popup_96470199ea294259a099a3202e2cde92)
+        ;
+
+        
+    
+    
+            var circle_marker_5386745c8541426497de8aa6c2f2995a = L.circleMarker(
+                [33.90104182978716, -118.34416211610228],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_7d72ddf1e37c4cc089a4bd596ff3c07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19f94901f6ce457fae67ddd9b6ca0ef3 = $(`<div id="html_19f94901f6ce457fae67ddd9b6ca0ef3" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.5</div>`)[0];
+            popup_7d72ddf1e37c4cc089a4bd596ff3c07a.setContent(html_19f94901f6ce457fae67ddd9b6ca0ef3);
+        
+
+        circle_marker_5386745c8541426497de8aa6c2f2995a.bindPopup(popup_7d72ddf1e37c4cc089a4bd596ff3c07a)
+        ;
+
+        
+    
+    
+            var circle_marker_6869d4936c0d4264927aa24ae53f05f2 = L.circleMarker(
+                [34.029420514001096, -118.45064840732128],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_cb7dfa1536b44030953322fdb298c69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79653b9daf2d424eba28c553f2fe0bc3 = $(`<div id="html_79653b9daf2d424eba28c553f2fe0bc3" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_cb7dfa1536b44030953322fdb298c69b.setContent(html_79653b9daf2d424eba28c553f2fe0bc3);
+        
+
+        circle_marker_6869d4936c0d4264927aa24ae53f05f2.bindPopup(popup_cb7dfa1536b44030953322fdb298c69b)
+        ;
+
+        
+    
+    
+            var circle_marker_0c61c47df6154bbba5f43fcfdad5b3fa = L.circleMarker(
+                [33.87319993818144, -118.29590831120103],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_9b9f64115e644f5896f9b42f93368662 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2cd6784b1904e808c77a3e8f22881f1 = $(`<div id="html_c2cd6784b1904e808c77a3e8f22881f1" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.3</div>`)[0];
+            popup_9b9f64115e644f5896f9b42f93368662.setContent(html_c2cd6784b1904e808c77a3e8f22881f1);
+        
+
+        circle_marker_0c61c47df6154bbba5f43fcfdad5b3fa.bindPopup(popup_9b9f64115e644f5896f9b42f93368662)
+        ;
+
+        
+    
+    
+            var circle_marker_e13a9635d7f846c3806bbd066899fd3d = L.circleMarker(
+                [33.877702428308645, -118.35106590379498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_ebb8071e3e8a41ed8b7fcbf6237a4c49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a75753a0a644ec9bdf970577c7abcf = $(`<div id="html_07a75753a0a644ec9bdf970577c7abcf" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.5</div>`)[0];
+            popup_ebb8071e3e8a41ed8b7fcbf6237a4c49.setContent(html_07a75753a0a644ec9bdf970577c7abcf);
+        
+
+        circle_marker_e13a9635d7f846c3806bbd066899fd3d.bindPopup(popup_ebb8071e3e8a41ed8b7fcbf6237a4c49)
+        ;
+
+        
+    
+    
+            var circle_marker_f1a628508a51476f972c4732ec7d54f9 = L.circleMarker(
+                [33.87303451212043, -118.37257220271995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_c08e9fbcebe740e981fd1677fd533fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97d64051441e40cdbab00e91911866d2 = $(`<div id="html_97d64051441e40cdbab00e91911866d2" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.6</div>`)[0];
+            popup_c08e9fbcebe740e981fd1677fd533fa9.setContent(html_97d64051441e40cdbab00e91911866d2);
+        
+
+        circle_marker_f1a628508a51476f972c4732ec7d54f9.bindPopup(popup_c08e9fbcebe740e981fd1677fd533fa9)
+        ;
+
+        
+    
+    
+            var circle_marker_c1556b29b2cd4a38bdf3c4144b56fbf8 = L.circleMarker(
+                [34.14006038516826, -118.00272409653469],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_c5d9ab06078448b3aa04101757baefbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13e80e06041c4593beb186699923f70f = $(`<div id="html_13e80e06041c4593beb186699923f70f" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.6</div>`)[0];
+            popup_c5d9ab06078448b3aa04101757baefbe.setContent(html_13e80e06041c4593beb186699923f70f);
+        
+
+        circle_marker_c1556b29b2cd4a38bdf3c4144b56fbf8.bindPopup(popup_c5d9ab06078448b3aa04101757baefbe)
+        ;
+
+        
+    
+    
+            var circle_marker_126c099297504850ae32a3db425279b5 = L.circleMarker(
+                [33.9264, -118.012336],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_8ec114fb5107443cab60c300af8853c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97939f47591a4989b3bd316985555806 = $(`<div id="html_97939f47591a4989b3bd316985555806" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.6</div>`)[0];
+            popup_8ec114fb5107443cab60c300af8853c8.setContent(html_97939f47591a4989b3bd316985555806);
+        
+
+        circle_marker_126c099297504850ae32a3db425279b5.bindPopup(popup_8ec114fb5107443cab60c300af8853c8)
+        ;
+
+        
+    
+    
+            var circle_marker_fd6eb12dc1614284be384ae716fb0e32 = L.circleMarker(
+                [33.89519968759841, -118.00863786357876],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_e0903f7e71314354bf293bb77d478180 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c9e69355b6246fc8c5e176caf445fdf = $(`<div id="html_0c9e69355b6246fc8c5e176caf445fdf" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.4</div>`)[0];
+            popup_e0903f7e71314354bf293bb77d478180.setContent(html_0c9e69355b6246fc8c5e176caf445fdf);
+        
+
+        circle_marker_fd6eb12dc1614284be384ae716fb0e32.bindPopup(popup_e0903f7e71314354bf293bb77d478180)
+        ;
+
+        
+    
+    
+            var circle_marker_c5664981349645e085e7043709e5d3bf = L.circleMarker(
+                [34.13322452481874, -117.92352680230458],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_45ac0cdc6e2044f1a4849bf64bfd4a72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20ffd97ea05a47618975713d886016a4 = $(`<div id="html_20ffd97ea05a47618975713d886016a4" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.0</div>`)[0];
+            popup_45ac0cdc6e2044f1a4849bf64bfd4a72.setContent(html_20ffd97ea05a47618975713d886016a4);
+        
+
+        circle_marker_c5664981349645e085e7043709e5d3bf.bindPopup(popup_45ac0cdc6e2044f1a4849bf64bfd4a72)
+        ;
+
+        
+    
+    
+            var circle_marker_12fc11d289a24f46acd6e1d923f3b795 = L.circleMarker(
+                [33.87063950167964, -117.91964534662924],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_08db68372b384c93b6cb3e04f382f4e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e199a0f29ce417ca0ef018faa170bbc = $(`<div id="html_0e199a0f29ce417ca0ef018faa170bbc" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.5</div>`)[0];
+            popup_08db68372b384c93b6cb3e04f382f4e6.setContent(html_0e199a0f29ce417ca0ef018faa170bbc);
+        
+
+        circle_marker_12fc11d289a24f46acd6e1d923f3b795.bindPopup(popup_08db68372b384c93b6cb3e04f382f4e6)
+        ;
+
+        
+    
+    
+            var circle_marker_11733f705edc49359db1cf3b7e28dc9d = L.circleMarker(
+                [34.106846000000004, -117.819157],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_fec174ac8807440eb4a896269932e8c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_382f658578d94027831c52f56f6f0186 = $(`<div id="html_382f658578d94027831c52f56f6f0186" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.9</div>`)[0];
+            popup_fec174ac8807440eb4a896269932e8c4.setContent(html_382f658578d94027831c52f56f6f0186);
+        
+
+        circle_marker_11733f705edc49359db1cf3b7e28dc9d.bindPopup(popup_fec174ac8807440eb4a896269932e8c4)
+        ;
+
+        
+    
+    
+            var circle_marker_434f19f654b042c9a3df0853db1adf4f = L.circleMarker(
+                [33.888031, -117.84253100000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_a2237e422f894b30ba070ed88ea8f048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84ae585e89a942a7ae7a6d82ab8b9628 = $(`<div id="html_84ae585e89a942a7ae7a6d82ab8b9628" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.9</div>`)[0];
+            popup_a2237e422f894b30ba070ed88ea8f048.setContent(html_84ae585e89a942a7ae7a6d82ab8b9628);
+        
+
+        circle_marker_434f19f654b042c9a3df0853db1adf4f.bindPopup(popup_a2237e422f894b30ba070ed88ea8f048)
+        ;
+
+        
+    
+    
+            var circle_marker_096bcd7f86c040e3a8c708ad6c36ea5f = L.circleMarker(
+                [33.727068, -117.919494],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_cf0b5124138a4e488d2da30cd85ad8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3971bb58b50b4d2696de4af2a12365c0 = $(`<div id="html_3971bb58b50b4d2696de4af2a12365c0" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.6</div>`)[0];
+            popup_cf0b5124138a4e488d2da30cd85ad8b5.setContent(html_3971bb58b50b4d2696de4af2a12365c0);
+        
+
+        circle_marker_096bcd7f86c040e3a8c708ad6c36ea5f.bindPopup(popup_cf0b5124138a4e488d2da30cd85ad8b5)
+        ;
+
+        
+    
+    
+            var circle_marker_5e8c406801be417b8e50b3a12ae4b456 = L.circleMarker(
+                [34.151700400225465, -118.75871918138898],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_16aa18626f214663aed0ad40e638cbf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9894a975c265408ca7a7bbd032e06bc4 = $(`<div id="html_9894a975c265408ca7a7bbd032e06bc4" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.0</div>`)[0];
+            popup_16aa18626f214663aed0ad40e638cbf4.setContent(html_9894a975c265408ca7a7bbd032e06bc4);
+        
+
+        circle_marker_5e8c406801be417b8e50b3a12ae4b456.bindPopup(popup_16aa18626f214663aed0ad40e638cbf4)
+        ;
+
+        
+    
+    
+            var circle_marker_a5a238234e3e4c65b780020e7c4e2973 = L.circleMarker(
+                [33.65957293918535, -117.86123906753288],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_96b1c6b381604cf09b9d164a8368073a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a24d40b8b78946f59d8f772e0254f621 = $(`<div id="html_a24d40b8b78946f59d8f772e0254f621" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.0</div>`)[0];
+            popup_96b1c6b381604cf09b9d164a8368073a.setContent(html_a24d40b8b78946f59d8f772e0254f621);
+        
+
+        circle_marker_a5a238234e3e4c65b780020e7c4e2973.bindPopup(popup_96b1c6b381604cf09b9d164a8368073a)
+        ;
+
+        
+    
+    
+            var circle_marker_a37843833991419f87c38a8ed4358bfb = L.circleMarker(
+                [34.077931, -117.611333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_1c8f651d0ec44302a852bbb20fec0291 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e17e2140d91546238ab752d98ac88566 = $(`<div id="html_e17e2140d91546238ab752d98ac88566" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.0</div>`)[0];
+            popup_1c8f651d0ec44302a852bbb20fec0291.setContent(html_e17e2140d91546238ab752d98ac88566);
+        
+
+        circle_marker_a37843833991419f87c38a8ed4358bfb.bindPopup(popup_1c8f651d0ec44302a852bbb20fec0291)
+        ;
+
+        
+    
+    
+            var circle_marker_2460df3b38a149baaf655bd679a96edc = L.circleMarker(
+                [34.12121484192792, -117.59324402690085],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_8526b174abba4ee981276b80f9de0c9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b8bd2053499432687b813957bc8ab9c = $(`<div id="html_3b8bd2053499432687b813957bc8ab9c" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.2</div>`)[0];
+            popup_8526b174abba4ee981276b80f9de0c9f.setContent(html_3b8bd2053499432687b813957bc8ab9c);
+        
+
+        circle_marker_2460df3b38a149baaf655bd679a96edc.bindPopup(popup_8526b174abba4ee981276b80f9de0c9f)
+        ;
+
+        
+    
+    
+            var circle_marker_d403f05d3fd345b4890db2f2d76d064a = L.circleMarker(
+                [34.07007730928617, -117.43662475592569],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_ccbd55d1ed054fdf95c1e6806b59d076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1daa4821880e4dc7b134cd9b7dd0d9fc = $(`<div id="html_1daa4821880e4dc7b134cd9b7dd0d9fc" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.7</div>`)[0];
+            popup_ccbd55d1ed054fdf95c1e6806b59d076.setContent(html_1daa4821880e4dc7b134cd9b7dd0d9fc);
+        
+
+        circle_marker_d403f05d3fd345b4890db2f2d76d064a.bindPopup(popup_ccbd55d1ed054fdf95c1e6806b59d076)
+        ;
+
+        
+    
+    
+            var circle_marker_837eeeee1c79426aa7bac32dfcc62d17 = L.circleMarker(
+                [33.732916682366124, -117.81555010837508],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_e447bc38f5e94e2a99435fa7b0408aba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a72b17fcd95344af92da31120d325e1d = $(`<div id="html_a72b17fcd95344af92da31120d325e1d" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.0</div>`)[0];
+            popup_e447bc38f5e94e2a99435fa7b0408aba.setContent(html_a72b17fcd95344af92da31120d325e1d);
+        
+
+        circle_marker_837eeeee1c79426aa7bac32dfcc62d17.bindPopup(popup_e447bc38f5e94e2a99435fa7b0408aba)
+        ;
+
+        
+    
+    
+            var circle_marker_c880b7dee9294d3f9171c58adf0a1f00 = L.circleMarker(
+                [33.699390610035444, -117.8349446308346],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_394cc9589e1b408e8d4356a617d910fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d71dd259e304e6e9bb399b0de8ffe64 = $(`<div id="html_8d71dd259e304e6e9bb399b0de8ffe64" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.6</div>`)[0];
+            popup_394cc9589e1b408e8d4356a617d910fa.setContent(html_8d71dd259e304e6e9bb399b0de8ffe64);
+        
+
+        circle_marker_c880b7dee9294d3f9171c58adf0a1f00.bindPopup(popup_394cc9589e1b408e8d4356a617d910fa)
+        ;
+
+        
+    
+    
+            var circle_marker_5d49cef3989141fc936b27db3269faf9 = L.circleMarker(
+                [33.71614740773716, -117.85097979350071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_d630d1b42cf1491e97a9b5e7f3ef8560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cd8c7d935e643609b760c567a26ea86 = $(`<div id="html_3cd8c7d935e643609b760c567a26ea86" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.1</div>`)[0];
+            popup_d630d1b42cf1491e97a9b5e7f3ef8560.setContent(html_3cd8c7d935e643609b760c567a26ea86);
+        
+
+        circle_marker_5d49cef3989141fc936b27db3269faf9.bindPopup(popup_d630d1b42cf1491e97a9b5e7f3ef8560)
+        ;
+
+        
+    
+    
+            var circle_marker_7989dbf576354d488b6250664f684214 = L.circleMarker(
+                [33.72305424641181, -117.79389728925],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_5e8b351c0ad24497a0370340a08e0970 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc9b4a501ed64daa86e1cb5864a82737 = $(`<div id="html_cc9b4a501ed64daa86e1cb5864a82737" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.1</div>`)[0];
+            popup_5e8b351c0ad24497a0370340a08e0970.setContent(html_cc9b4a501ed64daa86e1cb5864a82737);
+        
+
+        circle_marker_7989dbf576354d488b6250664f684214.bindPopup(popup_5e8b351c0ad24497a0370340a08e0970)
+        ;
+
+        
+    
+    
+            var circle_marker_b2d0214d141c4ebaadd3e391ae9853c9 = L.circleMarker(
+                [33.759345760320485, -117.8266166460641],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_3c3cb8036f8a4dd1b7e89d9390f1f665 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8f6cdeaa524436fa0c12fca2260e336 = $(`<div id="html_a8f6cdeaa524436fa0c12fca2260e336" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.3</div>`)[0];
+            popup_3c3cb8036f8a4dd1b7e89d9390f1f665.setContent(html_a8f6cdeaa524436fa0c12fca2260e336);
+        
+
+        circle_marker_b2d0214d141c4ebaadd3e391ae9853c9.bindPopup(popup_3c3cb8036f8a4dd1b7e89d9390f1f665)
+        ;
+
+        
+    
+    
+            var circle_marker_865048245f4441d09548ffc115ae9665 = L.circleMarker(
+                [33.74583397526433, -117.86379791153476],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_0aa72f522360470cb7e3440dcb3d2b01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf5b1488d99d406bb440cef089fc427b = $(`<div id="html_cf5b1488d99d406bb440cef089fc427b" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_0aa72f522360470cb7e3440dcb3d2b01.setContent(html_cf5b1488d99d406bb440cef089fc427b);
+        
+
+        circle_marker_865048245f4441d09548ffc115ae9665.bindPopup(popup_0aa72f522360470cb7e3440dcb3d2b01)
+        ;
+
+        
+    
+    
+            var circle_marker_6c253b1aa5774e15909d7404cacdc7e7 = L.circleMarker(
+                [33.707734949280294, -117.88578165380409],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_e5b7d2466169421c91c9da42a4046ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b245b63f3fd47c0918b19758bfd7d78 = $(`<div id="html_7b245b63f3fd47c0918b19758bfd7d78" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.6</div>`)[0];
+            popup_e5b7d2466169421c91c9da42a4046ac8.setContent(html_7b245b63f3fd47c0918b19758bfd7d78);
+        
+
+        circle_marker_6c253b1aa5774e15909d7404cacdc7e7.bindPopup(popup_e5b7d2466169421c91c9da42a4046ac8)
+        ;
+
+        
+    
+    
+            var circle_marker_082c777f758841c78c7e26e009626fd5 = L.circleMarker(
+                [33.76029813340943, -117.85217750744276],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_e5d154b1f5d64b0d9808f445bf1087f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e837b0463814ec8bc2060a2c97bbb23 = $(`<div id="html_4e837b0463814ec8bc2060a2c97bbb23" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.2</div>`)[0];
+            popup_e5d154b1f5d64b0d9808f445bf1087f3.setContent(html_4e837b0463814ec8bc2060a2c97bbb23);
+        
+
+        circle_marker_082c777f758841c78c7e26e009626fd5.bindPopup(popup_e5d154b1f5d64b0d9808f445bf1087f3)
+        ;
+
+        
+    
+    
+            var circle_marker_e384f43e6e47457d873244ee00d9a639 = L.circleMarker(
+                [33.727087039400956, -117.90575613296402],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_8014a78d9035433aa20bb4efa240ccf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbfb2a441f1148b7ad85767d5ca82481 = $(`<div id="html_dbfb2a441f1148b7ad85767d5ca82481" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_8014a78d9035433aa20bb4efa240ccf4.setContent(html_dbfb2a441f1148b7ad85767d5ca82481);
+        
+
+        circle_marker_e384f43e6e47457d873244ee00d9a639.bindPopup(popup_8014a78d9035433aa20bb4efa240ccf4)
+        ;
+
+        
+    
+    
+            var circle_marker_adf76da89c734c6ca4aaecc4cab47d36 = L.circleMarker(
+                [33.770495014118005, -117.86815233461651],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_9de7766f709d4776840120753df0696a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec9fbd8416274cd2b9c6e028416cf695 = $(`<div id="html_ec9fbd8416274cd2b9c6e028416cf695" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.5</div>`)[0];
+            popup_9de7766f709d4776840120753df0696a.setContent(html_ec9fbd8416274cd2b9c6e028416cf695);
+        
+
+        circle_marker_adf76da89c734c6ca4aaecc4cab47d36.bindPopup(popup_9de7766f709d4776840120753df0696a)
+        ;
+
+        
+    
+    
+            var circle_marker_df4e9ea76c7b4d31b7ccdcb81899ac3e = L.circleMarker(
+                [33.6509609017963, -117.84096309183708],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_e127e08b5ab04f9ca9f5dba4676002ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b54251e1cd24148b3f4bfbd30712a7d = $(`<div id="html_9b54251e1cd24148b3f4bfbd30712a7d" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.4</div>`)[0];
+            popup_e127e08b5ab04f9ca9f5dba4676002ca.setContent(html_9b54251e1cd24148b3f4bfbd30712a7d);
+        
+
+        circle_marker_df4e9ea76c7b4d31b7ccdcb81899ac3e.bindPopup(popup_e127e08b5ab04f9ca9f5dba4676002ca)
+        ;
+
+        
+    
+    
+            var circle_marker_3a45ed02a39a46b0adaf08828619283f = L.circleMarker(
+                [33.78125525922069, -117.86777119514299],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_c61dff1d23db438c8fd73d6c22fdd7a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a19f867f7c994861bfc97ff8cea9c1ca = $(`<div id="html_a19f867f7c994861bfc97ff8cea9c1ca" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.5</div>`)[0];
+            popup_c61dff1d23db438c8fd73d6c22fdd7a8.setContent(html_a19f867f7c994861bfc97ff8cea9c1ca);
+        
+
+        circle_marker_3a45ed02a39a46b0adaf08828619283f.bindPopup(popup_c61dff1d23db438c8fd73d6c22fdd7a8)
+        ;
+
+        
+    
+    
+            var circle_marker_4dc40023c001434290e26e7c0dc8d9ad = L.circleMarker(
+                [33.794694525116256, -117.83610692761316],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_c2fac89231d047e4bf3467eb177f86bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e787c205e312495295ac43e539bbde3e = $(`<div id="html_e787c205e312495295ac43e539bbde3e" style="width: 100.0%; height: 100.0%;">Taco Bell, 4.7</div>`)[0];
+            popup_c2fac89231d047e4bf3467eb177f86bd.setContent(html_e787c205e312495295ac43e539bbde3e);
+        
+
+        circle_marker_4dc40023c001434290e26e7c0dc8d9ad.bindPopup(popup_c2fac89231d047e4bf3467eb177f86bd)
+        ;
+
+        
+    
+    
+            var circle_marker_0c619a9d2ef34ee88118973b93d3b7a6 = L.circleMarker(
+                [33.79059898331706, -117.76220629426777],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_1a257f05240c4aa8884523ba2f3509a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75196f5f266c41dd81610a02255d0416 = $(`<div id="html_75196f5f266c41dd81610a02255d0416" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.5</div>`)[0];
+            popup_1a257f05240c4aa8884523ba2f3509a3.setContent(html_75196f5f266c41dd81610a02255d0416);
+        
+
+        circle_marker_0c619a9d2ef34ee88118973b93d3b7a6.bindPopup(popup_1a257f05240c4aa8884523ba2f3509a3)
+        ;
+
+        
+    
+    
+            var circle_marker_1ee70f2087374c1b8abc5869fe3efae1 = L.circleMarker(
+                [33.656511, -117.91976100000001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_9cf17283f68b4e708a6e4e753699be64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2197288f50bd4a34afd2d4060b7ca343 = $(`<div id="html_2197288f50bd4a34afd2d4060b7ca343" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_9cf17283f68b4e708a6e4e753699be64.setContent(html_2197288f50bd4a34afd2d4060b7ca343);
+        
+
+        circle_marker_1ee70f2087374c1b8abc5869fe3efae1.bindPopup(popup_9cf17283f68b4e708a6e4e753699be64)
+        ;
+
+        
+    
+    
+            var circle_marker_d04b2a1010c8455a8096e73f12dc9fff = L.circleMarker(
+                [33.61669096321845, -117.91538141933391],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_5a8cd0f5487d4404830e3d85630c91f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_836159870178451ba11dd1903347a9a5 = $(`<div id="html_836159870178451ba11dd1903347a9a5" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.5</div>`)[0];
+            popup_5a8cd0f5487d4404830e3d85630c91f6.setContent(html_836159870178451ba11dd1903347a9a5);
+        
+
+        circle_marker_d04b2a1010c8455a8096e73f12dc9fff.bindPopup(popup_5a8cd0f5487d4404830e3d85630c91f6)
+        ;
+
+        
+    
+    
+            var circle_marker_aa0ecdde628e444c88c18b7721b12f8a = L.circleMarker(
+                [33.81725941426736, -117.9150010757996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_2669b8d85967460083a2bae6547d1a73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e30043451de49438f425dbff3a17935 = $(`<div id="html_4e30043451de49438f425dbff3a17935" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_2669b8d85967460083a2bae6547d1a73.setContent(html_4e30043451de49438f425dbff3a17935);
+        
+
+        circle_marker_aa0ecdde628e444c88c18b7721b12f8a.bindPopup(popup_2669b8d85967460083a2bae6547d1a73)
+        ;
+
+        
+    
+    
+            var circle_marker_eb4e61578a6c4635ada48345f6a29fb9 = L.circleMarker(
+                [33.80294529728118, -117.93715468285791],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_80582ca6a83c4ee6bc5c47be7c91732b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5fc2ba3d0194c00a6a2ce5045a762db = $(`<div id="html_b5fc2ba3d0194c00a6a2ce5045a762db" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.4</div>`)[0];
+            popup_80582ca6a83c4ee6bc5c47be7c91732b.setContent(html_b5fc2ba3d0194c00a6a2ce5045a762db);
+        
+
+        circle_marker_eb4e61578a6c4635ada48345f6a29fb9.bindPopup(popup_80582ca6a83c4ee6bc5c47be7c91732b)
+        ;
+
+        
+    
+    
+            var circle_marker_ff1214cfec49454da5d5eb479d9a6bb7 = L.circleMarker(
+                [33.849562915867125, -117.7910798179146],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_157dd397e6af4e99aa5f5014e04625b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43f2ea98bea9458a93665c9439a4daa1 = $(`<div id="html_43f2ea98bea9458a93665c9439a4daa1" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.5</div>`)[0];
+            popup_157dd397e6af4e99aa5f5014e04625b8.setContent(html_43f2ea98bea9458a93665c9439a4daa1);
+        
+
+        circle_marker_ff1214cfec49454da5d5eb479d9a6bb7.bindPopup(popup_157dd397e6af4e99aa5f5014e04625b8)
+        ;
+
+        
+    
+    
+            var circle_marker_8c3b02f2adab49e4a7d1009c2dc42c76 = L.circleMarker(
+                [33.686433, -117.988271],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_d0b5420ba7744a92961988700c3395e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca330aea860547ee97622d3c8a0d524f = $(`<div id="html_ca330aea860547ee97622d3c8a0d524f" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_d0b5420ba7744a92961988700c3395e2.setContent(html_ca330aea860547ee97622d3c8a0d524f);
+        
+
+        circle_marker_8c3b02f2adab49e4a7d1009c2dc42c76.bindPopup(popup_d0b5420ba7744a92961988700c3395e2)
+        ;
+
+        
+    
+    
+            var circle_marker_1f6e2ab25f544a30adad469758523867 = L.circleMarker(
+                [33.729852090470466, -117.99830809582822],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_d67fc6762d964400989cbc4ca012ebcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3d1dfb4202a47b296cec33a32765e69 = $(`<div id="html_c3d1dfb4202a47b296cec33a32765e69" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.2</div>`)[0];
+            popup_d67fc6762d964400989cbc4ca012ebcc.setContent(html_c3d1dfb4202a47b296cec33a32765e69);
+        
+
+        circle_marker_1f6e2ab25f544a30adad469758523867.bindPopup(popup_d67fc6762d964400989cbc4ca012ebcc)
+        ;
+
+        
+    
+    
+            var circle_marker_9c9194d445504d87afb9b01ce7e896b2 = L.circleMarker(
+                [33.77328444476883, -117.99153263783958],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_66a6379fdae448409e0fcff4e2cdc852 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c24931f5b51c4941b99807a701968bdb = $(`<div id="html_c24931f5b51c4941b99807a701968bdb" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_66a6379fdae448409e0fcff4e2cdc852.setContent(html_c24931f5b51c4941b99807a701968bdb);
+        
+
+        circle_marker_9c9194d445504d87afb9b01ce7e896b2.bindPopup(popup_66a6379fdae448409e0fcff4e2cdc852)
+        ;
+
+        
+    
+    
+            var circle_marker_36cf9c877c5e46f0af28fe466b4773be = L.circleMarker(
+                [33.75879701879121, -118.0035972525933],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_d193b0cc2aa64914b9ffa3d5bf62e71b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69307a0d9ca345a8bd08c4f97cb2ae0a = $(`<div id="html_69307a0d9ca345a8bd08c4f97cb2ae0a" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_d193b0cc2aa64914b9ffa3d5bf62e71b.setContent(html_69307a0d9ca345a8bd08c4f97cb2ae0a);
+        
+
+        circle_marker_36cf9c877c5e46f0af28fe466b4773be.bindPopup(popup_d193b0cc2aa64914b9ffa3d5bf62e71b)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb11ff4fca94f6abe88627032c8c438 = L.circleMarker(
+                [33.660182, -118.005552],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_88f2192d7b9d4ea0a173e5dec1013b64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46551c4997c94b1199bb4d94c3680b14 = $(`<div id="html_46551c4997c94b1199bb4d94c3680b14" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_88f2192d7b9d4ea0a173e5dec1013b64.setContent(html_46551c4997c94b1199bb4d94c3680b14);
+        
+
+        circle_marker_bfb11ff4fca94f6abe88627032c8c438.bindPopup(popup_88f2192d7b9d4ea0a173e5dec1013b64)
+        ;
+
+        
+    
+    
+            var circle_marker_feaee792153a4244bd5fd91323e74a61 = L.circleMarker(
+                [33.62947806958496, -117.66564156299059],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_74fc8513a5f24699972a09dc3ca1e9d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8a26239b086459c9c0a33e5bc9284ed = $(`<div id="html_e8a26239b086459c9c0a33e5bc9284ed" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.3</div>`)[0];
+            popup_74fc8513a5f24699972a09dc3ca1e9d1.setContent(html_e8a26239b086459c9c0a33e5bc9284ed);
+        
+
+        circle_marker_feaee792153a4244bd5fd91323e74a61.bindPopup(popup_74fc8513a5f24699972a09dc3ca1e9d1)
+        ;
+
+        
+    
+    
+            var circle_marker_67524ca3dc2a4df09d5e436ab2e80622 = L.circleMarker(
+                [33.88891846991457, -117.87438130193657],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_5fae7a7ebb8841768a9682fcb05e2c0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa26ed83c6e744d0a1d46db255a2affc = $(`<div id="html_fa26ed83c6e744d0a1d46db255a2affc" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.5</div>`)[0];
+            popup_5fae7a7ebb8841768a9682fcb05e2c0a.setContent(html_fa26ed83c6e744d0a1d46db255a2affc);
+        
+
+        circle_marker_67524ca3dc2a4df09d5e436ab2e80622.bindPopup(popup_5fae7a7ebb8841768a9682fcb05e2c0a)
+        ;
+
+        
+    
+    
+            var circle_marker_b23418babd7d492bacf62de5b0ec3c43 = L.circleMarker(
+                [33.16086606468693, -117.34615627227673],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_6a3e00f84b874f4b93df8b07df37d4e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b20fe0cbbe1b478db86a77c5635f28d8 = $(`<div id="html_b20fe0cbbe1b478db86a77c5635f28d8" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.8</div>`)[0];
+            popup_6a3e00f84b874f4b93df8b07df37d4e9.setContent(html_b20fe0cbbe1b478db86a77c5635f28d8);
+        
+
+        circle_marker_b23418babd7d492bacf62de5b0ec3c43.bindPopup(popup_6a3e00f84b874f4b93df8b07df37d4e9)
+        ;
+
+        
+    
+    
+            var circle_marker_d77e3b8497394b39abf653452cd39815 = L.circleMarker(
+                [32.79514675215137, -117.25488882725212],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_7a8403e8e3e941299bd101757a3f0e6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbd74e5653b242daa629fb9045ad86e1 = $(`<div id="html_dbd74e5653b242daa629fb9045ad86e1" style="width: 100.0%; height: 100.0%;">Taco Bell, 7.2</div>`)[0];
+            popup_7a8403e8e3e941299bd101757a3f0e6e.setContent(html_dbd74e5653b242daa629fb9045ad86e1);
+        
+
+        circle_marker_d77e3b8497394b39abf653452cd39815.bindPopup(popup_7a8403e8e3e941299bd101757a3f0e6e)
+        ;
+
+        
+    
+    
+            var circle_marker_a40e34cf3c814aecb741f013382b552c = L.circleMarker(
+                [33.873604, -118.048197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_366f960c458c47e082fe412535af18c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2fae371bda848eea3380b419e019c41 = $(`<div id="html_e2fae371bda848eea3380b419e019c41" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_366f960c458c47e082fe412535af18c6.setContent(html_e2fae371bda848eea3380b419e019c41);
+        
+
+        circle_marker_a40e34cf3c814aecb741f013382b552c.bindPopup(popup_366f960c458c47e082fe412535af18c6)
+        ;
+
+        
+    
+    
+            var circle_marker_7d2063dd8fe044f1af2d4eb360eed41d = L.circleMarker(
+                [33.902063760361074, -118.04579968831335],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_34301f7519c0491dbb4571b54e5e0118 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d6f4069cc0f47588c5de2dba1f1b75a = $(`<div id="html_1d6f4069cc0f47588c5de2dba1f1b75a" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_34301f7519c0491dbb4571b54e5e0118.setContent(html_1d6f4069cc0f47588c5de2dba1f1b75a);
+        
+
+        circle_marker_7d2063dd8fe044f1af2d4eb360eed41d.bindPopup(popup_34301f7519c0491dbb4571b54e5e0118)
+        ;
+
+        
+    
+    
+            var circle_marker_b44624e5474449d5a125007552aaaa66 = L.circleMarker(
+                [33.888013396344355, -118.06610192181351],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_c313e249a3cd4201b061dffd44d92b49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71ee66636dd647f5a74b4e33413d2308 = $(`<div id="html_71ee66636dd647f5a74b4e33413d2308" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_c313e249a3cd4201b061dffd44d92b49.setContent(html_71ee66636dd647f5a74b4e33413d2308);
+        
+
+        circle_marker_b44624e5474449d5a125007552aaaa66.bindPopup(popup_c313e249a3cd4201b061dffd44d92b49)
+        ;
+
+        
+    
+    
+            var circle_marker_c136a1b768ff47eb80eed993dc89a496 = L.circleMarker(
+                [33.87314727248897, -117.99866975015226],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_179ddd185ab74dc598de95a7e3ae9e13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0fb10049ef640a9b56f1d80eece06d7 = $(`<div id="html_e0fb10049ef640a9b56f1d80eece06d7" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_179ddd185ab74dc598de95a7e3ae9e13.setContent(html_e0fb10049ef640a9b56f1d80eece06d7);
+        
+
+        circle_marker_c136a1b768ff47eb80eed993dc89a496.bindPopup(popup_179ddd185ab74dc598de95a7e3ae9e13)
+        ;
+
+        
+    
+    
+            var circle_marker_64fcefdd7aaa4bf1b9c7d796f5389c0b = L.circleMarker(
+                [33.847480673656676, -118.028181197957],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_8cac1bccc3c54fb89748cb4303b6c761 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad52d3668ee14756901bd9ea6f662620 = $(`<div id="html_ad52d3668ee14756901bd9ea6f662620" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_8cac1bccc3c54fb89748cb4303b6c761.setContent(html_ad52d3668ee14756901bd9ea6f662620);
+        
+
+        circle_marker_64fcefdd7aaa4bf1b9c7d796f5389c0b.bindPopup(popup_8cac1bccc3c54fb89748cb4303b6c761)
+        ;
+
+        
+    
+    
+            var circle_marker_0b8821d8dc2e489da3c5db49c810f618 = L.circleMarker(
+                [33.901876, -118.08288600000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_07457d458b624ea186f25014b9bf38c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4588e6a008924203acc2d6d2cac814c7 = $(`<div id="html_4588e6a008924203acc2d6d2cac814c7" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_07457d458b624ea186f25014b9bf38c9.setContent(html_4588e6a008924203acc2d6d2cac814c7);
+        
+
+        circle_marker_0b8821d8dc2e489da3c5db49c810f618.bindPopup(popup_07457d458b624ea186f25014b9bf38c9)
+        ;
+
+        
+    
+    
+            var circle_marker_caeadecde8734c5084e658bab872647e = L.circleMarker(
+                [33.858236384744075, -118.0726249343212],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_81d9025f9bcc4cd38d18751a7fc324fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc218aaaff974f8ea0078402d7c7d263 = $(`<div id="html_bc218aaaff974f8ea0078402d7c7d263" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.3</div>`)[0];
+            popup_81d9025f9bcc4cd38d18751a7fc324fe.setContent(html_bc218aaaff974f8ea0078402d7c7d263);
+        
+
+        circle_marker_caeadecde8734c5084e658bab872647e.bindPopup(popup_81d9025f9bcc4cd38d18751a7fc324fe)
+        ;
+
+        
+    
+    
+            var circle_marker_b97271c2d40441e1a307a8129ac708a7 = L.circleMarker(
+                [33.88571243059918, -118.09532498999913],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_4490e6cea92441c89dbd6a4a6b5b4f0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f64cab445e2c44869809616ba5860cf1 = $(`<div id="html_f64cab445e2c44869809616ba5860cf1" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_4490e6cea92441c89dbd6a4a6b5b4f0a.setContent(html_f64cab445e2c44869809616ba5860cf1);
+        
+
+        circle_marker_b97271c2d40441e1a307a8129ac708a7.bindPopup(popup_4490e6cea92441c89dbd6a4a6b5b4f0a)
+        ;
+
+        
+    
+    
+            var circle_marker_88e9e854271a4ca092bedbd54513394e = L.circleMarker(
+                [33.85702838305414, -118.09601656751515],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_5a5bd3398d7f42ff9e41de2b1fd5c5af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42971e22891d48b9ad5872b24f9e5c3c = $(`<div id="html_42971e22891d48b9ad5872b24f9e5c3c" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_5a5bd3398d7f42ff9e41de2b1fd5c5af.setContent(html_42971e22891d48b9ad5872b24f9e5c3c);
+        
+
+        circle_marker_88e9e854271a4ca092bedbd54513394e.bindPopup(popup_5a5bd3398d7f42ff9e41de2b1fd5c5af)
+        ;
+
+        
+    
+    
+            var circle_marker_17d8fcc9017e419a8e636f202312aa0c = L.circleMarker(
+                [33.93895731356779, -118.0467989095493],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_0107cecd5d0a43c5a129777d711a4776 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6de87b8626641c58e0aa877193cab03 = $(`<div id="html_a6de87b8626641c58e0aa877193cab03" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.3</div>`)[0];
+            popup_0107cecd5d0a43c5a129777d711a4776.setContent(html_a6de87b8626641c58e0aa877193cab03);
+        
+
+        circle_marker_17d8fcc9017e419a8e636f202312aa0c.bindPopup(popup_0107cecd5d0a43c5a129777d711a4776)
+        ;
+
+        
+    
+    
+            var circle_marker_8ea949cbacd246998d46e25222430b54 = L.circleMarker(
+                [33.85880019243084, -117.97571702647694],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_3040819b1c514565b5536aafc8694a67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2993c7579199444091e81be9f1d60ad9 = $(`<div id="html_2993c7579199444091e81be9f1d60ad9" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.0</div>`)[0];
+            popup_3040819b1c514565b5536aafc8694a67.setContent(html_2993c7579199444091e81be9f1d60ad9);
+        
+
+        circle_marker_8ea949cbacd246998d46e25222430b54.bindPopup(popup_3040819b1c514565b5536aafc8694a67)
+        ;
+
+        
+    
+    
+            var circle_marker_90bac1b204e749ab892c0ba0a6583282 = L.circleMarker(
+                [33.9182192025542, -117.96823839764211],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_a078f84e43664a928df3b5d009f33eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e7183870f34380b45fccd47c633f12 = $(`<div id="html_a2e7183870f34380b45fccd47c633f12" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.9</div>`)[0];
+            popup_a078f84e43664a928df3b5d009f33eb7.setContent(html_a2e7183870f34380b45fccd47c633f12);
+        
+
+        circle_marker_90bac1b204e749ab892c0ba0a6583282.bindPopup(popup_a078f84e43664a928df3b5d009f33eb7)
+        ;
+
+        
+    
+    
+            var circle_marker_9bfac63cc0ad4f8591edd05b917e78fb = L.circleMarker(
+                [33.87762057209313, -117.96129377008178],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_258dbf8e2df64b8b82442dabad9d6b03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7444f2822fad44cc90e2cd1f6e76b1fa = $(`<div id="html_7444f2822fad44cc90e2cd1f6e76b1fa" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.2</div>`)[0];
+            popup_258dbf8e2df64b8b82442dabad9d6b03.setContent(html_7444f2822fad44cc90e2cd1f6e76b1fa);
+        
+
+        circle_marker_9bfac63cc0ad4f8591edd05b917e78fb.bindPopup(popup_258dbf8e2df64b8b82442dabad9d6b03)
+        ;
+
+        
+    
+    
+            var circle_marker_630eca5bb50e4e54bf3c7f0ec6e0e8ed = L.circleMarker(
+                [33.869484, -118.12478600000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_f2e2d4294d974f4d881ae0dff1d8f401 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1efb9cc17fa42dc9f06c00e28545677 = $(`<div id="html_c1efb9cc17fa42dc9f06c00e28545677" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.3</div>`)[0];
+            popup_f2e2d4294d974f4d881ae0dff1d8f401.setContent(html_c1efb9cc17fa42dc9f06c00e28545677);
+        
+
+        circle_marker_630eca5bb50e4e54bf3c7f0ec6e0e8ed.bindPopup(popup_f2e2d4294d974f4d881ae0dff1d8f401)
+        ;
+
+        
+    
+    
+            var circle_marker_316b8f4d27e94c2b8a0675a02c69e240 = L.circleMarker(
+                [33.846726000000004, -118.1175],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_a1441ed7a90f46afa236cd0a307d9425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f908b37fb144cbeb2ac74fb531832fe = $(`<div id="html_2f908b37fb144cbeb2ac74fb531832fe" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_a1441ed7a90f46afa236cd0a307d9425.setContent(html_2f908b37fb144cbeb2ac74fb531832fe);
+        
+
+        circle_marker_316b8f4d27e94c2b8a0675a02c69e240.bindPopup(popup_a1441ed7a90f46afa236cd0a307d9425)
+        ;
+
+        
+    
+    
+            var circle_marker_ff99a1ebf5ed440c84172339df8de9ff = L.circleMarker(
+                [33.96528, -118.03705900000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_40fc64c9623c46c1b31112f530d82b98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dc84ab58270498a9cf2fdaa2568fa19 = $(`<div id="html_1dc84ab58270498a9cf2fdaa2568fa19" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.8</div>`)[0];
+            popup_40fc64c9623c46c1b31112f530d82b98.setContent(html_1dc84ab58270498a9cf2fdaa2568fa19);
+        
+
+        circle_marker_ff99a1ebf5ed440c84172339df8de9ff.bindPopup(popup_40fc64c9623c46c1b31112f530d82b98)
+        ;
+
+        
+    
+    
+            var circle_marker_52d938e2529b49118ab9fb39ebfdad09 = L.circleMarker(
+                [33.80322347507903, -118.01417140019127],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_40a869f96cb446ac99c1c4e1ce63967b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b478dfa427674d8d8dbecb2e23ee293a = $(`<div id="html_b478dfa427674d8d8dbecb2e23ee293a" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.1</div>`)[0];
+            popup_40a869f96cb446ac99c1c4e1ce63967b.setContent(html_b478dfa427674d8d8dbecb2e23ee293a);
+        
+
+        circle_marker_52d938e2529b49118ab9fb39ebfdad09.bindPopup(popup_40a869f96cb446ac99c1c4e1ce63967b)
+        ;
+
+        
+    
+    
+            var circle_marker_a027b03f04ed4237af682c16bed97c74 = L.circleMarker(
+                [33.84306446873813, -117.94129832519792],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_49647c9fca4846d4bc7766b78c8a16f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4145bc6257746b7acfc2ba59d6de148 = $(`<div id="html_d4145bc6257746b7acfc2ba59d6de148" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.9</div>`)[0];
+            popup_49647c9fca4846d4bc7766b78c8a16f3.setContent(html_d4145bc6257746b7acfc2ba59d6de148);
+        
+
+        circle_marker_a027b03f04ed4237af682c16bed97c74.bindPopup(popup_49647c9fca4846d4bc7766b78c8a16f3)
+        ;
+
+        
+    
+    
+            var circle_marker_16ed02710220450c94d4a666e5c9b090 = L.circleMarker(
+                [33.79896287735833, -118.10988845130191],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_ba5583ef13c144c999098f2b7a7bceff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d40aaf54a944f5f9de3c394e24a9542 = $(`<div id="html_8d40aaf54a944f5f9de3c394e24a9542" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.6</div>`)[0];
+            popup_ba5583ef13c144c999098f2b7a7bceff.setContent(html_8d40aaf54a944f5f9de3c394e24a9542);
+        
+
+        circle_marker_16ed02710220450c94d4a666e5c9b090.bindPopup(popup_ba5583ef13c144c999098f2b7a7bceff)
+        ;
+
+        
+    
+    
+            var circle_marker_0a7311da38684b6dab926676550256b7 = L.circleMarker(
+                [33.917627054510554, -117.90247649059792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_b6b23d2cec7d4000b408fc6c8d54ee51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc172f71bbe347a8b7b9e9b71880203b = $(`<div id="html_fc172f71bbe347a8b7b9e9b71880203b" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.7</div>`)[0];
+            popup_b6b23d2cec7d4000b408fc6c8d54ee51.setContent(html_fc172f71bbe347a8b7b9e9b71880203b);
+        
+
+        circle_marker_0a7311da38684b6dab926676550256b7.bindPopup(popup_b6b23d2cec7d4000b408fc6c8d54ee51)
+        ;
+
+        
+    
+    
+            var circle_marker_bf211f574a3741fa9a14e416387f4b01 = L.circleMarker(
+                [33.780476053472945, -118.114196062088],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_d568cb8664ee4c089c13de165850d2dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3f6036e07684ec5b79ee07b273a690b = $(`<div id="html_a3f6036e07684ec5b79ee07b273a690b" style="width: 100.0%; height: 100.0%;">Taco Bell, 6.0</div>`)[0];
+            popup_d568cb8664ee4c089c13de165850d2dd.setContent(html_a3f6036e07684ec5b79ee07b273a690b);
+        
+
+        circle_marker_bf211f574a3741fa9a14e416387f4b01.bindPopup(popup_d568cb8664ee4c089c13de165850d2dd)
+        ;
+
+        
+    
+    
+            var circle_marker_0eb557e643c04c77a17dc51bec893aba = L.circleMarker(
+                [33.916029049891314, -117.88616552751209],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_bb8814133da048ca91ec698cfb9d5e28);
+        
+    
+        var popup_5e4d8ef34d104da2956bd9f99c3f0ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd3abfce4e3a40829dc945f309be5e32 = $(`<div id="html_bd3abfce4e3a40829dc945f309be5e32" style="width: 100.0%; height: 100.0%;">Taco Bell, 5.6</div>`)[0];
+            popup_5e4d8ef34d104da2956bd9f99c3f0ca1.setContent(html_bd3abfce4e3a40829dc945f309be5e32);
+        
+
+        circle_marker_0eb557e643c04c77a17dc51bec893aba.bindPopup(popup_5e4d8ef34d104da2956bd9f99c3f0ca1)
+        ;
+
+        
+    
+</script>
